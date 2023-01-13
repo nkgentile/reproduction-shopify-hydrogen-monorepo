@@ -1,0 +1,16 @@
+{
+  "name": "reproduction-shopify-hydrogen-monorepo",
+  "description": "",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:nkgentile/reproduction-shopify-hydrogen-monorepo.git"
+  },
+  "author": "Noah Gentile <noah.gentile@gmail.com>",
+  "workspaces": [
+    "apps/*"
+  ],
+  "scripts": {
+    "start": "npm run dev -w hydrogen",
+    "build": "npm run build -w hydrogen"
+  }
+}
